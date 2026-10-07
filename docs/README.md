@@ -1,5 +1,16 @@
 # OctoAcme Project Management Documentation
 
+## Contents
+
+- [Overview](#overview)
+- [Core Principles](#core-principles)
+- [Project Lifecycle Phases](#project-lifecycle-phases)
+- [Cross-Cutting Guidance](#cross-cutting-guidance)
+- [Key Artifacts](#key-artifacts)
+- [Core Roles](#core-roles)
+- [Getting Started](#getting-started)
+- [Questions or Feedback?](#questions-or-feedback)
+
 ## Overview
 
 OctoAcme follows a structured, lifecycle-based project management approach designed to deliver customer value through iterative increments with clear governance and accountability. Projects progress through **Initiation**, **Planning**, **Execution**, **Release**, and **Retrospective & Continuous Improvement**. Lightweight artifacts—including the Project One-pager, prioritized backlog, risk register, and release notes—create transparency and support data-informed decisions. Customer-first prioritization, iterative delivery, clear ownership, and psychological safety help teams balance speed with quality and learning.
