@@ -65,9 +65,17 @@ jobs:
           issue-number: ${{ env.ISSUE_NUMBER }}
           file: exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
 
-      - name: Disable current workflow and enable next one
+      - name: Enable next workflow and disable current one
         run: |
-          gh workflow disable "${{github.workflow}}"
-          gh workflow enable "Step 2"
+          for attempt in 1 2 3; do
+            if gh workflow enable "2-step.yml"; then
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              exit 1
+            fi
+            sleep 5
+          done
+          gh workflow disable "1-step.yml"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
