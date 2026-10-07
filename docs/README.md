@@ -2,7 +2,7 @@
 
 Use this README as the central starting point for OctoAcme's project management processes.
 
-## Navigation
+## Contents
 
 - [Overview](#overview)
 - [Core Principles](#core-principles)
