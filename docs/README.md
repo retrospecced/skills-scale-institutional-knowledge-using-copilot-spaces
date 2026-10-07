@@ -1,5 +1,7 @@
 # OctoAcme Project Management Documentation
 
+Use this README as the central starting point for OctoAcme's project management processes.
+
 ## Contents
 
 - [Overview](#overview)
@@ -99,6 +101,8 @@ See [Roles and Personas](./octoacme-roles-and-personas.md) for detailed descript
 2. Follow the phase-specific guides in order as your project progresses.
 3. Reference [OctoAcme Roles and Personas](./octoacme-roles-and-personas.md) for role clarity.
 4. Use [OctoAcme Risk Management & Communication](./octoacme-risks-and-communication.md) throughout all phases.
+5. With your PM and PdM, review your project's One-pager, success metrics, prioritized backlog, Definition of Done, and risk register to understand current priorities and expectations.
+6. Confirm your team's standup, delivery sync, demo, and stakeholder update schedule, and use the project board to track your work and surface blockers.
 
 ## Questions or Feedback?
 
